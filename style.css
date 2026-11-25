@@ -124,3 +124,25 @@ body { font-family: "Poppins", sans-serif; color: var(--ink); background: #fff; 
   font-size: 1.3rem;
   color: var(--orange);
 }
+
+/* ---------- 13b. FAQ page (added by Teacher) ---------- */
+.faq-container {
+  max-width: 800px;
+}
+.accordion-item {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+.accordion-button {
+  font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--orange);
+  color: white;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}

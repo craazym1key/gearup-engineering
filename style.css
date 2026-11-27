@@ -146,3 +146,11 @@ body { font-family: "Poppins", sans-serif; color: var(--ink); background: #fff; 
 .accordion-button:focus {
   box-shadow: none;
 }
+/* ---------- 19. Version badge in the footer (v1.1.0) ---------- */
+.version {
+  background-color: var(--orange);
+  color: white;
+  border-radius: 10px;
+  padding: 1px 8px;
+  font-size: 0.8rem;
+}
